@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title> Site internet NSI </title>
+<style>
+    body{
+        background-color: rgb(31, 4, 20);
+    }
+    h1{
+        text-align: center;
+        color: rgb(129, 57, 129);
+        font-style: italic;
+    }
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        color: rgb(34, 15, 18)
+        
+    }
+    table{
+        background-color: rgb(243, 167, 104);
+        color: rgb(0, 0, 0);
+    }
+    footer{
+        color: royalblue;
+    }
+    button{
+        background-color: rgb(255, 174, 0);
+        color: rgb(8, 0, 29);
+    }
+
+</style>
+
+
+    
+
+
+
+</head>
+<body>
+    
+    <h1> Voici les principales informations concernant html    </h1>  
+    
+    
+    <div id="d1">
+    <ul style="list-style-type: disc">
+    <h2> <li>D'où vient html </li></h2>
+    </ul>
+
+
+<p id="p1" id="para_1"> <strong>Le langage HTML a été développé à l'origine par Tim Berners-Lee, </strong>alors au
+    CERN, et popularisé par le navigateur Mosaic, développé au NCSA. Pendant les années 1990, 
+    il s'est épanoui en profitant de la croissance explosive du Web.</p>
+</div>
+
+    <div id="d2">
+    <ul style="list-style-type: disc">
+    <br><h2><li>Qu'est ce qu'HTML</li></h2>
+    </ul>
+    
+
+
+<p id="p2" id="para_1"><strong>HyperText Markup Language (HTML)</strong> est le code utilisé pour structurer une page web et son
+    contenu. Par exemple, le contenu de votre page pourra être structuré en un ensemble de
+     paragraphes, une liste à puces ou avec des images et des tableaux de données.</p>
+</div>
+
+
+
+<br><center><p><a href="https://www.youtube.com/watch?v=WCg8LavlcfE">Cliquez ici pour en savoir plus sur HTML</a></p></center>
+
+
+<br><ul style="list-style-type: square">
+    <h2> <li> Différentes façon d'améliorer son site </li></h2>
+    </ul>
+
+
+    <div id="d3">
+<table border="2" >
+    <tr>
+            <th>css</th>
+            <th>javascript</th>
+    </tr>
+    <tr>
+            <td><center> Mise en forme d'une page web</center> <img src="https://play-lh.googleusercontent.com/RTAZb9E639F4JBcuBRTPEk9_92I-kaKgBMw4LFxTGhdCQeqWukXh74rTngbQpBVGxqo"alt="Image" style="width:200px;height:200px;"></td>
+            <td> <center>Rendre une page dynamique</center> <img src="https://blog.lesjeudis.com/wp-content/uploads/2020/12/Screenshot-2020-12-02-at-15.31.17-1.png"alt="Image" style="width:200px;height:200px;">
+            </td>
+    </tr>
+
+</table>
+</div>
+
+<center><img src="https://media.tenor.com/x8v1oNUOmg4AAAAd/rickroll-roll.gif"alt="Image" style="width:200px;height:200px;"></center>
+
+<footer> HUET Gabriel </footer>
+
+
+</body>
+
+
+
+<script>
+let d1 = document.getElementById("d1");
+let d2 = document.getElementById("d2");
+let d3 = document.getElementById("d3");
+let p1 = document.getElementById("p1");
+let p2 = document.getElementById("p2");
+let l1 = document.getElementById("l1");
+let l2 = document.getElementById("l2");
+
+
+d1.addEventListener("mouseover", () => {p1.style.display = "block";});
+d1.addEventListener("mouseout", () => {p1.style.display = "none";});
+d2.addEventListener("mouseover", () => {p2.style.display = "block";});
+d2.addEventListener("mouseout", () => {p2.style.display = "none";});
+
+
+
+  </script>
+
+
+
+
+</html>
